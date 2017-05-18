@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [home.CitiBankTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="home.CitiBankTest">
+        <methods>
+          <include name="creditCards"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- home.CitiBankTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [home.CitiBankTest] -->
