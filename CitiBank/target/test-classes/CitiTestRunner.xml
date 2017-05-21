@@ -13,8 +13,14 @@
 
     <test name = "Citi Home">
         <classes>
-            <class name="home.CitiBankTest"/>
-             <!--<class name="homepage.HomePage"/>-->
+        <!-- <class name="home.CitiBankTest"/>
+           <class name="home.WhyCitiBankTest"/>
+            <class name="home.RelationshipBankingTest"/>
+            <class name="home.BusinessBankingTest"/>
+            <class name="home.RateTest"/>-->
+            <class name="home.CreditCardLoginTest"/>
+            <!--<class name="banking.BankingPageTest"/>-->
+
         </classes>
     </test>
 

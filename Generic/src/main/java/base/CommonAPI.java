@@ -180,7 +180,7 @@ public class CommonAPI {
         return driver;
     }
    @AfterMethod
-    public void cleanUp() {
+   public void cleanUp() {
         System.out.println("It has been called");
         driver.quit();
     }

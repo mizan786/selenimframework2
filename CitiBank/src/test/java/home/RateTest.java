@@ -1,44 +1,43 @@
 package home;
 
 import base.CommonAPI;
-import homepage.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import rates.Rates;
 import utility.reporting.TestLogger;
 
 /**
- *Created by Mizan on 5/11/2017.
-*/
-public class CitiBankTest extends CommonAPI {
-
+ * Created by Mizan on 5/19/2017.
+ */
+public class RateTest extends CommonAPI {
+    @Test
+    public void personalBanking() {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Rates rates = PageFactory.initElements(driver, Rates.class);
+        rates.goToPersonalBanking();
+    }
     @Test
     public void creditCards() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        HomePage homepage = PageFactory.initElements(driver, HomePage.class);
-        homepage.goToCreditCardSection();
+        Rates rates = PageFactory.initElements(driver, Rates.class);
+        rates.goToCrecard();
     }
     @Test
-    public void banking() {
+    public void mortgage() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        HomePage homepage = PageFactory.initElements(driver, HomePage.class);
-        homepage.goToBankingSection();
+        Rates rates = PageFactory.initElements(driver, Rates.class);
+        rates.goToMortgage();
     }
-     @Test
-    public void landing() {
+    @Test
+    public void homeEquity() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        HomePage homepage = PageFactory.initElements(driver, HomePage.class);
-        homepage.goToLandingSection();
+        Rates rates = PageFactory.initElements(driver, Rates.class);
+        rates.goToHomeEquity();
     }
-     @Test
-    public void investing() {
+    @Test
+    public void lending() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        HomePage homepage = PageFactory.initElements(driver, HomePage.class);
-        homepage.goToInvestmentSection();
-    }
-      @Test
-    public void citiGold() {
-        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        HomePage homepage = PageFactory.initElements(driver, HomePage.class);
-        homepage.goToCitiGoldSection();
+        Rates rates = PageFactory.initElements(driver, Rates.class);
+        rates.goToLending();
     }
 }

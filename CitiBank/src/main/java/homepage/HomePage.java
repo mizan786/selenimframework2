@@ -38,7 +38,7 @@ public class HomePage extends CommonAPI {
         return citygoldLink;
     }
     public static void goToCreditCardSection() {
-       getCreditCardLink().click();
+        getCreditCardLink();
     }
     public static void goToBankingSection() {
         getBankingLink().click();
