@@ -12,19 +12,19 @@ import javax.xml.ws.Service;
  */
 public class WhyCitiBank extends CommonAPI {
 
-    @FindBy(how = How.CSS, using = "#whyCiti li:nth-child(1)")
+    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(1)")
     public static WebElement ourStoryLink;
-    @FindBy(how = How.CSS, using = "#whyCiti li:nth-child(2)")
+    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(2)")
     public static WebElement careerLink;
-    @FindBy(how = How.CSS, using = "#whyCiti li:nth-child(3)")
+    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(3)")
     public static WebElement benifitAndServicesLink;
-    @FindBy(how = How.CSS, using = "#whyCiti li:nth-child(4)")
+    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(4)")
     public static WebElement rewardsLink;
-    @FindBy(how = How.CSS, using = "#whyCiti li:nth-child(5)")
+    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(5)")
     public static WebElement citiEasyDealsLink;
-    @FindBy(how = How.CSS, using = "#whyCiti li:nth-child(6)")
+    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(6)")
     public static WebElement citiPrivateLink;
-    @FindBy(how = How.CSS, using = "#whyCiti li:nth-child(7)")
+    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(7)")
     public static WebElement speacialOfferLink;
 
     public static WebElement getOurStoryLink() {

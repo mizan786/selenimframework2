@@ -11,6 +11,11 @@ import org.testng.annotations.Test;
  */
 public class BankingPageTest extends CommonAPI {
     @Test
+    public void dropDownMenu(){
+        BankingPage bankingPage = PageFactory.initElements(driver, BankingPage.class);
+        bankingPage.goToBankingOverview();
+    }
+    /*@Test
     public void banking(){
         BankingPage bankingPage = PageFactory.initElements(driver, BankingPage.class);
         bankingPage.goTobankingPage();
@@ -29,5 +34,5 @@ public class BankingPageTest extends CommonAPI {
     public void priorityAccountPackage() {
         BankingPage bankingPage = PageFactory.initElements(driver, BankingPage.class);
         bankingPage.priorityAccountPackage();
-        }
+        }*/
 }

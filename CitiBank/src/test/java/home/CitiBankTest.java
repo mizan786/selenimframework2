@@ -11,7 +11,7 @@ import utility.reporting.TestLogger;
 */
 public class CitiBankTest extends CommonAPI {
 
-    @Test
+   @Test
     public void creditCards() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         HomePage homepage = PageFactory.initElements(driver, HomePage.class);

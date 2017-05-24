@@ -15,10 +15,10 @@ import java.io.IOException;
  */
 /*
 public class SearchPage extends CommonAPI {
-    @FindBy(how = How.CSS, using = "#twotabsearchtextbox")
+    @FindBy(how = How.CSS, using = "#InLocationFinderID")
     public static WebElement searchInput;
 
-    @FindBy(how = How.CSS, using = ".nav-input")
+    @FindBy(how = How.CSS, using = "#BtnLocationFinder")
     public static WebElement searchSubmit;
 
     public void searchFor(String item) {

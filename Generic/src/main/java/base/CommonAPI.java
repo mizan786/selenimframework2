@@ -101,13 +101,13 @@ public class CommonAPI {
 
     public WebDriver driver = null;
     private String saucelabs_username = "your user name";
-    private String browserstack_username = "your user name";
+    private String browserstack_username = "mizanurrahman8";
     private String saucelabs_accesskey = "your access key";
-    private String browserstack_accesskey = "your access key";
+    private String browserstack_accesskey = "FUK4szcAG9WeDx3MfUp3";
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
+    public void setUp(@Optional("true") boolean useCloudEnv, @Optional("true") String cloudEnvName,
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
                               String browserVersion, @Optional("https://online.citi.com/US/login.do") String url) throws IOException {
         if (useCloudEnv == true) {
@@ -120,8 +120,8 @@ public class CommonAPI {
             //run in local
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(35, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
     }
@@ -129,14 +129,14 @@ public class CommonAPI {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("Mac")) {
                 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017One\\Generic\\driver\\chromedriver2.exe");
-            } else if (OS.equalsIgnoreCase("Win")) {
+            } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017One\\Generic\\driver\\chromedriver2.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("Mac")) {
                 System.setProperty("webdriver.gecko.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017One\\Generic\\driver\\geckodriver.exe");
-            } else if (OS.equalsIgnoreCase("Win")) {
+            } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017One\\Generic\\driver\\geckodriver.exe");
             }
             driver = new FirefoxDriver();

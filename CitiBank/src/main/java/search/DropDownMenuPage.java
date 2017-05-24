@@ -14,14 +14,14 @@ public class DropDownMenuPage extends CommonAPI {
     public List<String> getMenus(){
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> items = new ArrayList<String>();
-        items = getTextFromWebElements("#searchDropdownBox option");
+        items = getTextFromWebElements(".ui-selectmenu-icon ui-icon ui-icon-triangle-1-s");
         return items;
     }
 
     public void typeOnInputSearch(List<String> data)throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         for(int i=0; i<5; i++) {
-            typeByCss("#twotabsearchtextbox", data.get(i));
+            typeByCss("#RegionalPricingLocation-snapshot-menu-option-41", data.get(i));
             input();
             sleepFor(2);
             clearBox();
@@ -30,11 +30,11 @@ public class DropDownMenuPage extends CommonAPI {
 
     public void input() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        keysInput("#twotabsearchtextbox");
+        keysInput("RegionalPricingLocation-snapshot-menu-option-42");
     }
     public void clearBox() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        clearInput("#twotabsearchtextbox");
+        clearInput("#RegionalPricingLocation-snapshot-menu-option-43");
     }
 
     public void dropDownSearch()throws InterruptedException{
