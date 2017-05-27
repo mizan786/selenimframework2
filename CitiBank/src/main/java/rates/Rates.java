@@ -14,11 +14,11 @@ public class Rates extends CommonAPI {
     public static WebElement personalBanking;
     @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(2)")
     public static WebElement creditCard;
-    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(3)")
+    @FindBy(how = How.CSS, using = "a[onclick='lnk(this.href);return false;']")
     public static WebElement mortgage;
     @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(4)")
     public static WebElement homeEquity;
-    @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(5)")
+    @FindBy(how = How.CSS, using = "a[onclick='lnk(this.href);return false;']")
     public static WebElement lending;
 
     public static WebElement getPersonalBanking() {

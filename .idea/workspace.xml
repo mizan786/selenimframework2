@@ -2,51 +2,216 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/data/file2.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/datasource/DataBaseDataReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/investingpage/InvestingPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/landingpage/LendingPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/investingpage/InvestingPageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/lendingPage/LendingPageTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/data/file1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebay/data/file1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/citigold/CitiGoldPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/log/CitiBankLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/citigoldpage/CitiGoldTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebay/src/main/java/datasource/DatabaseDataReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebay/src/main/java/search/DropDownMenuPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebay/src/main/java/search/ItemsToBeSearched.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebay/src/main/java/search/SearchPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebay/src/test/java/searchitems/DropDownMenuSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebay/src/test/java/searchitems/SearchItems.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebay/src/test/java/searchitems/SearchItemsWithDatabaseDataSource.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/CNN.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/src/main/java/homepage/HomePage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/src/main/java/politics/PoliticsPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/src/main/resources/CnnTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/src/test/java/news/News.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/src/test/java/politics/Politics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/target/classes/CnnTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/target/classes/homepage/HomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/target/classes/politics/PoliticsPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/target/test-classes/news/News.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/target/test-classes/politics/Politics.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/Extent-Report/ExtentReport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/data/file.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/CreditCardLoginTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_40_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/home/CreditCardLoginTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/home/CreditCardPageTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/data/file2.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/businessbanking/BusinessBanking.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/datasource/DataBaseDataReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/homepage/datasource/DataBaseDataReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/relationshipbanking/RelationshipBanking.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/home/BusinessBankingTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/home/RelationshipBankingTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/DropDownManuSearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItems.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemsWithDataBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/classes/businessbanking/BusinessBanking.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/classes/relationshipbanking/RelationshipBanking.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/BusinessBankingTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/BusinessBankingTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/BusinessBankingTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/CitiBankTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/CitiBankTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/CitiBankTest$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/CitiBankTest$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/CitiBankTest$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/CitiBankTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/CreditCardPageTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RateTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RateTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RateTest$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RateTest$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RateTest$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RateTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RelationshipBankingTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RelationshipBankingTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RelationshipBankingTest$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RelationshipBankingTest$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/RelationshipBankingTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/WhyCitiBankTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/WhyCitiBankTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/WhyCitiBankTest$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/WhyCitiBankTest$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/WhyCitiBankTest$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/WhyCitiBankTest$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/WhyCitiBankTest$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/home/WhyCitiBankTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/searchitems/SearchItemsWithDataBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/Extent-Report/ExtentReport.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/MetLife.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/src/main/resources/MetLifeTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/src/test/java/home/TestMetLife.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/classes/MetLifeTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/TEST-home.TestMetLife.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/home.TestMetLife.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/home.TestMetLife/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/home.TestMetLife/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/home.TestMetLife/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/junitreports/TEST-home.TestMetLife.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/home.TestMetLife/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MetLife/target/test-classes/home/TestMetLife.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/Upscalelearning.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/src/test/java/home/TestLogin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/src/test/resources/UpScalelearningTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/Upscalelearning-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/Upscalelearning.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/src/test/resources/UpScalelearningTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/target/Upscalelearning-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/target/classes/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/classes/target/test-classes/UpScalelearningTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/TEST-home.TestLogin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/home.TestLogin.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/home.TestLogin/Command line test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/home.TestLogin/Command line test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/home.TestLogin/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/junitreports/TEST-home.TestLogin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/Command line test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/home.TestLogin/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/test-classes/UpScalelearningTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Upscalelearning/target/test-classes/home/TestLogin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Yahoo/Yahoo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Yahoo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Yahoo/src/main/resources/YahooTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Yahoo/src/test/java/home/TestYahooLogin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Yahoo/target/classes/YahooTestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Yahoo/target/test-classes/home/TestYahooLogin.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CNN/pom.xml" afterPath="$PROJECT_DIR$/Ebay/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/home/CitiBankTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/search/CitiBankTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/home/CreditCardPageTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/search/CreditCardPageTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/home/RateTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/search/RateTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/home/WhyCitiBankTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/search/WhyCitiBankTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MetLife/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/bankingpage/BankingPage.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/bankingpage/BankingPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/creditcard/CreditcardPage$10.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/creditcard/CreditcardPage$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/creditcard/CreditcardPage$11.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/creditcard/CreditcardPage$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/creditcard/CreditcardPage$12.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/creditcard/CreditcardPage$12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/creditcard/CreditcardPage.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/creditcard/CreditcardPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/homepage/HomePage.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homepage/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/whycitibank/WhyCitiBank.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/whycitibank/WhyCitiBank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/investingpage/InvestingPage.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/investingpage/InvestingPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/landingpage/LendingPage$1.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/landingpage/LendingPage$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/landingpage/LendingPage$2.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/landingpage/LendingPage$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/landingpage/LendingPage.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/landingpage/LendingPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/rates/Rates.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/rates/Rates.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/classes/search/ItemsToBeSearched.class" afterPath="$PROJECT_DIR$/CitiBank/target/classes/search/ItemsToBeSearched.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/banking/BankingPageTest.class" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/banking/BankingPageTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/investingpage/InvestingPageTest.class" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/investingpage/InvestingPageTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/lendingPage/LendingPageTest.class" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/lendingPage/LendingPageTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/searchitems/DropDownManuSearch.class" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/searchitems/DropDownManuSearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/searchitems/SearchItems.class" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/searchitems/SearchItems.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/CNN.iml" afterPath="$PROJECT_DIR$/CNN/CNN.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/CitiBank.iml" afterPath="$PROJECT_DIR$/CitiBank/CitiBank.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/pom.xml" afterPath="$PROJECT_DIR$/CitiBank/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/bankingpage/BankingPage.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/bankingpage/BankingPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/creditcard/CreditcardPage.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/creditcard/CreditcardPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/homepage/HomePage.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/homepage/HomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/investingpage/InvestingPage.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/investingpage/InvestingPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/landingpage/LendingPage.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/landingpage/LendingPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/rates/Rates.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/rates/Rates.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/search/DropDownMenuPage.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/search/DropDownMenuPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/search/ItemsToBeSearched.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/search/ItemsToBeSearched.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/search/SearchPage.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/search/SearchPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/main/java/whycitibank/WhyCitiBank.java" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/whycitibank/WhyCitiBank.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/banking/BankingPageTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/banking/BankingPageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/home/CitiBankTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/home/CitiBankTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/DropDownManuSearch.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/DropDownManuSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItems.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemsWithDataBase.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemsWithDataBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/investingpage/InvestingPageTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/investingpage/InvestingPageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/test/java/lendingPage/LendingPageTest.java" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/lendingPage/LendingPageTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/src/test/resources/CitiTestRunner.xml" afterPath="$PROJECT_DIR$/CitiBank/src/test/resources/CitiTestRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/CitiTestRunner.xml" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/CitiTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="$PROJECT_DIR$/Generic/Generic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/pom.xml" afterPath="$PROJECT_DIR$/Generic/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetLife/MetLife.iml" afterPath="$PROJECT_DIR$/MetLife/MetLife.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Upscalelearning/Upscalelearning.iml" afterPath="$PROJECT_DIR$/Upscalelearning/Upscalelearning.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yahoo/Yahoo.iml" afterPath="$PROJECT_DIR$/Yahoo/Yahoo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/reader/ConnectDB.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/reader/ConnectDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/reader/DataReader.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/reader/DataReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,6 +223,8 @@
     <ignored path="$PROJECT_DIR$/CitiBank/target/" />
     <ignored path="$PROJECT_DIR$/MetLife/target/" />
     <ignored path="$PROJECT_DIR$/CNN/target/" />
+    <ignored path="$PROJECT_DIR$/PcRechard/target/" />
+    <ignored path="$PROJECT_DIR$/Ebay/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +238,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EbayTestRunner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CitiTestRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CitiBank/src/test/resources/CitiTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,97 +258,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankingPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/bankingpage/BankingPage.java">
+      <file leaf-file-name="CitiBankTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/search/CitiBankTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/search/SearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="138" column="51" lean-forward="false" selection-start-line="138" selection-start-column="51" selection-end-line="138" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchItems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchItemsWithDataBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemsWithDataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBaseDataReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/datasource/DataBaseDataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreditcardPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/creditcard/CreditcardPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2244">
-              <caret line="156" column="133" lean-forward="false" selection-start-line="156" selection-start-column="133" selection-end-line="156" selection-end-column="133" />
+            <state relative-caret-position="153">
+              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CreditCardPageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/home/CreditCardPageTest.java">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/search/CreditCardPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="-265">
+              <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="133" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
+      <file leaf-file-name="RateTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/search/RateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhyCitiBankTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/search/WhyCitiBankTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankingPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/banking/BankingPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CitiGoldTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/citigoldpage/CitiGoldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvestingPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/investingpage/InvestingPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LendingPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/lendingPage/LendingPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -197,57 +360,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/mizanreport/reader/ConnectDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/mizanreport/reader/DataReader.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ApplicationLog.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/reader/DataReader.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/reader/ConnectDB.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemsWithDataBaseDataSource.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/reporting/ApplicationLog.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/reporting/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/reporting/ExtentTestManager.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/reporting/TestLogger.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ApplicationLog.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ExtentTestManager.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reporting/TestLogger.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/main/java/home/HomePage.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/main/java/search/HomePage.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/main/java/search/SearchItems.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/test/java/TestPcRechard.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/home/SearchPage.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/test/java/pcrechard/TestPcRechard.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/test/resources/PcRechardTestRunner.xml" />
+        <option value="$PROJECT_DIR$/PcRechard/src/main/java/home/Search.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reader/ConnectDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/reader/DataReader.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/RelationShipBankingTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/relationshipbanking/RelationshipBanking.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/RateTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/rates/Rates.java" />
-        <option value="$PROJECT_DIR$/CNN/src/main/java/homepage/HomePage.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/LoginTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/BankingPageTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/WhyCitiBankTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/businessbanking/BusinessBanking.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/BusinessBankingTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/RelationshipBankingTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/CitiBankTest.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/datasource/DatabaseDataReader.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/main/java/search/DropDownMenu.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/test/java/searchitem/TestPcRechard.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/test/java/searchitem/DropdownMenu.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/test/java/searchitem/DropdownSearch.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/test/java/searchitem/SearchItemWithDatabase.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/main/java/datasource/DatabaseDataReader.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/main/java/search/Search.java" />
+        <option value="$PROJECT_DIR$/PcRechard/src/test/java/searchitem/SearchItem.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/resources/PcRechardTestRunner.xml" />
+        <option value="$PROJECT_DIR$/CitiBank/pom.xml" />
+        <option value="$PROJECT_DIR$/Ebay/pom.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/datasource/DatabaseDataReader.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/main/java/homepage/HomePage.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/CreditCardLoginTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/landingpage/LandingPage.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/lendingPage/LendingPageTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/banking/BankingPageTest.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/search/DropDownMenuPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/creditcard/CreditcardPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItems.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemswithDatabaseDataSource.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/searchitems/DropDownMenuSearch.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/searchitems/SearchItems.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/searchitems/SearchItemsWithDatabaseDataSource.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/search/DropDownMenuPage.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/search/ItemsToBeSearched.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/search/SearchPage.java" />
+        <option value="$PROJECT_DIR$/Yahoo/src/test/java/search/TestYahooLogin.java" />
+        <option value="$PROJECT_DIR$/Yahoo/src/test/resources/YahooTestRunner.xml" />
+        <option value="$PROJECT_DIR$/MetLife/src/test/java/search/TestMetLife.java" />
+        <option value="$PROJECT_DIR$/MetLife/src/test/resources/MetLifeTestRunner.xml" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/search/SearchPage.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/test/java/investingpage/InvestingPageTest.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/main/java/investingpage/InvestingPage.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/whycitibank/WhyCitiBank.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/landingpage/LendingPage.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/creditcard/CreditcardPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/search/ItemsToBeSearched.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/DropDownManuSearch.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/search/SearchPage.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/datasource/DataBaseDataReader.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemsWithDataBase.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItems.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/home/CreditCardPageTest.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/search/CreditCardPageTest.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/main/java/bankingpage/BankingPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/banking/BankingPageTest.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/landingpage/LendingPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/lendingPage/LendingPageTest.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/citigoldpage/CitiGoldTest.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/citigold/CitiGoldPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/rates/Rates.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/search/CitiBankTest.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/test/resources/CitiTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -265,32 +428,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Generic" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Generic" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="MavenRunner">
     <option name="mavenProperties">
@@ -300,9 +438,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="width" value="1369" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="width" value="1370" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -364,7 +502,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
+              <option name="myItemId" value="Ebay" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,7 +516,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
+              <option name="myItemId" value="Ebay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searchitems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebay" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -393,6 +587,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -404,7 +602,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
+              <option name="myItemId" value="Ebay" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -417,28 +615,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017One" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="automation-march2017One" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="driver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,7 +710,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -556,11 +732,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lendingPage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,7 +762,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -590,14 +770,128 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bankingpage" />
+              <option name="myItemId" value="investingpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CitiBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="citigoldpage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CitiBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CitiBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CitiBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extent-Report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation-march2017One" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CitiBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -616,15 +910,18 @@
       <recent name="java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\Ebay\data" />
+      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\PcRechard\data" />
+      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\CitiBank\data" />
       <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017\Generic\driver" />
       <recent name="C:\Users\PIIT_NYA\IdeaProjects\PntAutomation\Amazon\src\test\resources" />
-      <recent name="C:\Users\PIIT_NYA\IdeaProjects\PntAutomation\Generic\driver" />
-      <recent name="C:\Users\PIIT_NYA\IdeaProjects\PntAutomation\Generic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\MetLife\src\test" />
+      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\Yahoo\src\test" />
+      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\Ebay\src\test" />
+      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\PcRechard\src\test" />
       <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\Generic\src\main\java" />
-      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\Generic" />
-      <recent name="C:\Users\Mizan\IdeaProjects\automation-march2017One\CitiBank\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -640,34 +937,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml">
-    <configuration default="false" name="C:/Users/Mizan/IdeaProjects/automation-march2017One/MetLife/src/main/resources/MetLifeTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MetLife" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/MetLife/src/main/resources/MetLifeTestRunner.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="false" name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="CitiBank" />
@@ -696,22 +965,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CitiBankTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CitiBank" />
+    <configuration default="false" name="C:/Users/Mizan/IdeaProjects/automation-march2017One/Ebay/src/test/resources/EbayTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Ebay" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.CitiBankTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -729,22 +993,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="InvestingPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="investingpage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CitiBank" />
+    <configuration default="false" name="C:/Users/Mizan/IdeaProjects/automation-march2017One/Yahoo/src/test/resources/YahooTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Yahoo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="investingpage" />
-      <option name="MAIN_CLASS_NAME" value="investingpage.InvestingPageTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Yahoo/src/test/resources/YahooTestRunner.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -762,10 +1021,38 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="BankingPageTest.dropDownMenu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="C:/Users/Mizan/IdeaProjects/automation-march2017One/MetLife/src/test/resources/MetLifeTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MetLife" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/MetLife/src/test/resources/MetLifeTestRunner.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="CitiBankTest.searchoption" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="banking.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -773,9 +1060,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="banking" />
-      <option name="MAIN_CLASS_NAME" value="banking.BankingPageTest" />
-      <option name="METHOD_NAME" value="dropDownMenu" />
+      <option name="PACKAGE_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="search.CitiBankTest" />
+      <option name="METHOD_NAME" value="searchoption" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1205,19 +1492,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/MetLife/src/main/resources/MetLifeTestRunner.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CitiBankTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.InvestingPageTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.BankingPageTest.dropDownMenu" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/Ebay/src/test/resources/EbayTestRunner.xml" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/Yahoo/src/test/resources/YahooTestRunner.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/MetLife/src/test/resources/MetLifeTestRunner.xml" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CitiBankTest.searchoption" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.BankingPageTest.dropDownMenu" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.InvestingPageTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CitiBankTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/MetLife/src/main/resources/MetLifeTestRunner.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CitiBankTest.searchoption" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/Ebay/src/test/resources/EbayTestRunner.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/MetLife/src/test/resources/MetLifeTestRunner.xml" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Mizan/IdeaProjects/automation-march2017One/Yahoo/src/test/resources/YahooTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -1510,47 +1797,196 @@
       <workItem from="1495660622007" duration="13000" />
       <workItem from="1495660771808" duration="1934000" />
       <workItem from="1495665116491" duration="3323000" />
+      <workItem from="1495675009844" duration="186000" />
+      <workItem from="1495675465017" duration="86000" />
+      <workItem from="1495676285300" duration="13000" />
+      <workItem from="1495676335868" duration="70000" />
+      <workItem from="1495676438146" duration="336000" />
+      <workItem from="1495677119589" duration="431000" />
+      <workItem from="1495677557953" duration="65000" />
+      <workItem from="1495677696910" duration="787000" />
+      <workItem from="1495678511979" duration="48000" />
+      <workItem from="1495678588955" duration="102000" />
+      <workItem from="1495678743584" duration="58000" />
+      <workItem from="1495678823381" duration="189000" />
+      <workItem from="1495679016457" duration="180000" />
+      <workItem from="1495679336967" duration="52000" />
+      <workItem from="1495679476692" duration="18000" />
+      <workItem from="1495679555875" duration="124000" />
+      <workItem from="1495679725398" duration="14000" />
+      <workItem from="1495679770920" duration="72000" />
+      <workItem from="1495680041021" duration="4485000" />
+      <workItem from="1495688062169" duration="1169000" />
+      <workItem from="1495715535240" duration="291000" />
+      <workItem from="1495716427356" duration="64000" />
+      <workItem from="1495716603742" duration="322000" />
+      <workItem from="1495716956344" duration="585000" />
+      <workItem from="1495717654410" duration="100000" />
+      <workItem from="1495718150542" duration="58000" />
+      <workItem from="1495718225454" duration="16000" />
+      <workItem from="1495718332865" duration="94000" />
+      <workItem from="1495718445754" duration="217000" />
+      <workItem from="1495718669320" duration="377000" />
+      <workItem from="1495719059525" duration="18000" />
+      <workItem from="1495719095828" duration="854000" />
+      <workItem from="1495719959318" duration="11000" />
+      <workItem from="1495719979035" duration="251000" />
+      <workItem from="1495720234654" duration="2180000" />
+      <workItem from="1495722574826" duration="6000" />
+      <workItem from="1495722583535" duration="25000" />
+      <workItem from="1495722620488" duration="25000" />
+      <workItem from="1495722691164" duration="60000" />
+      <workItem from="1495722821935" duration="898000" />
+      <workItem from="1495723734560" duration="152000" />
+      <workItem from="1495723924543" duration="227000" />
+      <workItem from="1495724401977" duration="71000" />
+      <workItem from="1495734882685" duration="20000" />
+      <workItem from="1495734931349" duration="1284000" />
+      <workItem from="1495736251217" duration="1254000" />
+      <workItem from="1495737745872" duration="66000" />
+      <workItem from="1495737839368" duration="9000" />
+      <workItem from="1495737869566" duration="131000" />
+      <workItem from="1495738046808" duration="10000" />
+      <workItem from="1495738071762" duration="187000" />
+      <workItem from="1495738282291" duration="639000" />
+      <workItem from="1495739245334" duration="97000" />
+      <workItem from="1495739518790" duration="138000" />
+      <workItem from="1495739661876" duration="2284000" />
+      <workItem from="1495741997924" duration="1018000" />
+      <workItem from="1495770993640" duration="28000" />
+      <workItem from="1495771059556" duration="1272000" />
+      <workItem from="1495772428407" duration="3930000" />
+      <workItem from="1495776438426" duration="69000" />
+      <workItem from="1495776528530" duration="15000" />
+      <workItem from="1495776560271" duration="108000" />
+      <workItem from="1495776815701" duration="75000" />
+      <workItem from="1495776927704" duration="14000" />
+      <workItem from="1495776996842" duration="151000" />
+      <workItem from="1495777159974" duration="219000" />
+      <workItem from="1495777400445" duration="1312000" />
+      <workItem from="1495778823256" duration="24000" />
+      <workItem from="1495778966527" duration="40000" />
+      <workItem from="1495779024563" duration="27000" />
+      <workItem from="1495779081562" duration="8000" />
+      <workItem from="1495779113568" duration="25000" />
+      <workItem from="1495779348115" duration="57000" />
+      <workItem from="1495802325227" duration="22000" />
+      <workItem from="1495802379475" duration="11000" />
+      <workItem from="1495805205931" duration="11000" />
+      <workItem from="1495807363914" duration="392000" />
+      <workItem from="1495809299849" duration="61000" />
+      <workItem from="1495811728500" duration="67000" />
+      <workItem from="1495811926792" duration="67000" />
+      <workItem from="1495812032487" duration="19000" />
+      <workItem from="1495812071537" duration="7000" />
+      <workItem from="1495812096146" duration="36000" />
+      <workItem from="1495812149917" duration="64000" />
+      <workItem from="1495812244170" duration="37000" />
+      <workItem from="1495812321198" duration="9000" />
+      <workItem from="1495812372322" duration="34000" />
+      <workItem from="1495812424978" duration="9000" />
+      <workItem from="1495812439543" duration="14000" />
+      <workItem from="1495812483556" duration="60000" />
+      <workItem from="1495812568945" duration="74000" />
+      <workItem from="1495812659106" duration="26000" />
+      <workItem from="1495812708371" duration="21000" />
+      <workItem from="1495812768321" duration="39000" />
+      <workItem from="1495812833286" duration="52000" />
+      <workItem from="1495812899762" duration="49000" />
+      <workItem from="1495812977706" duration="18000" />
+      <workItem from="1495813013772" duration="69000" />
+      <workItem from="1495813228392" duration="107000" />
+      <workItem from="1495813350920" duration="76000" />
+      <workItem from="1495816343951" duration="28000" />
+      <workItem from="1495816397445" duration="1641000" />
+      <workItem from="1495818124125" duration="311000" />
+      <workItem from="1495818441337" duration="767000" />
+      <workItem from="1495819244591" duration="140000" />
+      <workItem from="1495819411242" duration="12000" />
+      <workItem from="1495819440445" duration="9000" />
+      <workItem from="1495819465265" duration="69000" />
+      <workItem from="1495819551281" duration="101000" />
+      <workItem from="1495819680016" duration="10000" />
+      <workItem from="1495819719253" duration="20000" />
+      <workItem from="1495819751867" duration="45000" />
+      <workItem from="1495819820872" duration="8000" />
+      <workItem from="1495819844469" duration="12000" />
+      <workItem from="1495819870776" duration="32000" />
+      <workItem from="1495819912309" duration="34000" />
+      <workItem from="1495819970332" duration="10000" />
+      <workItem from="1495819995811" duration="21000" />
+      <workItem from="1495820054921" duration="31000" />
+      <workItem from="1495820111572" duration="29000" />
+      <workItem from="1495820154500" duration="41000" />
+      <workItem from="1495820224330" duration="8000" />
+      <workItem from="1495820251235" duration="15000" />
+      <workItem from="1495820292857" duration="59000" />
+      <workItem from="1495820369289" duration="39000" />
+      <workItem from="1495820431240" duration="11000" />
+      <workItem from="1495820454163" duration="8000" />
+      <workItem from="1495820478054" duration="27000" />
+      <workItem from="1495820537093" duration="10000" />
+      <workItem from="1495820568227" duration="18000" />
+      <workItem from="1495820608676" duration="33000" />
+      <workItem from="1495820662067" duration="35000" />
+      <workItem from="1495820729534" duration="123000" />
+      <workItem from="1495820864818" duration="96000" />
+      <workItem from="1495821048480" duration="524000" />
+      <workItem from="1495823894283" duration="1014000" />
+      <workItem from="1495826212237" duration="978000" />
+      <workItem from="1495827242136" duration="819000" />
+      <workItem from="1495828196872" duration="1261000" />
+      <workItem from="1495829542794" duration="646000" />
+      <workItem from="1495830196431" duration="143000" />
+      <workItem from="1495830408024" duration="80000" />
+      <workItem from="1495830709350" duration="164000" />
+      <workItem from="1495831136340" duration="405000" />
+      <workItem from="1495834183162" duration="1610000" />
+      <workItem from="1495839137948" duration="1379000" />
+      <workItem from="1495844301441" duration="2060000" />
+      <workItem from="1495847756443" duration="178000" />
+      <workItem from="1495847977547" duration="1354000" />
+      <workItem from="1495852170737" duration="14687000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 18h 52m 17s.xml">
+    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.27 at 02h 16m 27s.xml">
       <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 18h 56m 06s.xml">
+    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.27 at 02h 18m 32s.xml">
       <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 19h 04m 18s.xml">
+    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.27 at 02h 21m 17s.xml">
       <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 19h 04m 51s.xml">
+    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.27 at 02h 22m 43s.xml">
       <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 19h 06m 44s.xml">
+    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.27 at 02h 26m 02s.xml">
       <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 19h 11m 04s.xml">
-      <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_Ebay_src_test_resources_EbayTestRunner_xml - 2017.05.27 at 02h 07m 24s.xml">
+      <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 19h 14m 38s.xml">
-      <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_Ebay_src_test_resources_EbayTestRunner_xml - 2017.05.27 at 02h 10m 46s.xml">
+      <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 19h 16m 27s.xml">
-      <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_Ebay_src_test_resources_EbayTestRunner_xml - 2017.05.27 at 02h 13m 28s.xml">
+      <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 19h 17m 27s.xml">
-      <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="CitiBankTest_searchoption - 2017.05.27 at 02h 20m 23s.xml">
+      <configuration name="CitiBankTest.searchoption" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mizan_IdeaProjects_automation-march2017One_CitiBank_src_test_resources_CitiTestRunner_xml - 2017.05.24 at 19h 41m 10s.xml">
-      <configuration name="C:/Users/Mizan/IdeaProjects/automation-march2017One/CitiBank/src/test/resources/CitiTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="CitiBankTest_searchoption - 2017.05.27 at 02h 20m 40s.xml">
+      <configuration name="CitiBankTest.searchoption" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217443000" />
+    <option name="totallyTimeSpent" value="279947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1369" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1559,29 +1995,29 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.107169256" sideWeight="0.49577168" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3769716" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08788774" sideWeight="0.49577168" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37223974" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21608832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2195122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24076809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3769716" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2776618" sideWeight="0.50422835" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1624,7 +2060,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="49" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ebay/src/main/java/search/Search.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1633,301 +2077,391 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/mizanreport/TestLogger.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/mizanreport/ExtentManager.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/mizanreport/reader/ConnectDB.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/mizanreport/reader/DataReader.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ExtentManager.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ExtentTestManager.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/TestLogger.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ApplicationLog.java" />
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemsWithDataBase.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ExtentManager.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/searchitem/SearchItem" />
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/searchitem/SearchItemWithDatabase" />
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/searchitem/DropdownMenu" />
+    <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reader/ConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="198" column="3" lean-forward="false" selection-start-line="198" selection-start-column="3" selection-end-line="198" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reader/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="3" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/Extent-Report/Extent Report.html" />
-    <entry file="file://$PROJECT_DIR$/CitiBank/Extent-Report/ExtentReport.html" />
-    <entry file="file://$PROJECT_DIR$/MetLife/src/test/java/home/TestMetLife.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homepage/datasource/DataBaseDataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/src/main/java/homepage/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/home/BankingPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/businessbanking/BusinessBanking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homepage/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/search/DropDownMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="3" lean-forward="false" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/banking/BankingPageTest.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/home/RateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="133" lean-forward="false" selection-start-line="38" selection-start-column="133" selection-end-line="38" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/home/BusinessBankingTest.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/datasource.java" />
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/search/SearchItems.java" />
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/datasource/DatabaseDataReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/lendingPage/LendingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/investingpage/InvestingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/rates/Rates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/home/WhyCitiBankTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="54" column="3" lean-forward="false" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/whycitibank/WhyCitiBank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="-338">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/relationshipbanking/RelationshipBanking.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/usermodel/HSSFSheet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="3451">
+          <caret line="264" column="6" lean-forward="false" selection-start-line="264" selection-start-column="6" selection-end-line="264" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reporting/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/home/CitiBankTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/investingpage/InvestingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/landingpage/LendingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="38" column="134" lean-forward="false" selection-start-line="38" selection-start-column="134" selection-end-line="38" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/home/RelationshipBankingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/search/ItemsToBeSearched.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/searchitems/DropDownManuSearch.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/datasource/DatabaseDataReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reader/ConnectDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="3196">
+          <caret line="199" column="5" lean-forward="false" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/creditcard/CreditcardPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="156" column="133" lean-forward="false" selection-start-line="156" selection-start-column="133" selection-end-line="156" selection-end-column="133" />
-          <folding />
+        <state relative-caret-position="1326">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/search/SearchPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        <state relative-caret-position="10897">
+          <caret line="691" column="0" lean-forward="false" selection-start-line="691" selection-start-column="0" selection-end-line="691" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.4.0/selenium-support-3.4.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/search/DropDownMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/datasource/DataBaseDataReader.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/reader/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="850">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemsWithDataBase.java">
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/search/ItemsToBeSearched.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/search/DropDownMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/searchitems/DropDownMenuSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/searchitems/SearchItemsWithDatabaseDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="133" lean-forward="false" selection-start-line="18" selection-start-column="133" selection-end-line="18" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/searchitems/SearchItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/search/ItemsToBeSearched.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yahoo/src/test/java/search/TestYahooLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yahoo/src/test/resources/YahooTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
+          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetLife/src/test/java/search/TestMetLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yahoo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetLife/src/test/resources/MetLifeTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/search/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/search/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/investingpage/InvestingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="3" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#970#971#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1105#1106#0" expanded="false" />
+            <element signature="e#1158#1159#0" expanded="false" />
+            <element signature="e#1196#1197#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItems.java">
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/creditcard/CreditcardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1071">
+          <caret line="138" column="133" lean-forward="false" selection-start-line="138" selection-start-column="133" selection-end-line="138" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/landingpage/LendingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/bankingpage/BankingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="-37">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/home/CreditCardPageTest.java">
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/citigold/CitiGoldPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="371">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/rates/Rates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="138" column="51" lean-forward="false" selection-start-line="138" selection-start-column="51" selection-end-line="138" selection-end-column="51" />
+        <state relative-caret-position="460">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homepage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/banking/BankingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/citigoldpage/CitiGoldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/investingpage/InvestingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/lendingPage/LendingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/search/CitiBankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/search/CreditCardPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/search/RateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/search/WhyCitiBankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItemswithDatabaseDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="133" lean-forward="false" selection-start-line="15" selection-start-column="133" selection-end-line="15" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/searchitems/SearchItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding />
         </state>
       </provider>

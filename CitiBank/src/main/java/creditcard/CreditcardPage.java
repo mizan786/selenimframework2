@@ -136,6 +136,7 @@ public class CreditcardPage extends CommonAPI {
         travelCards.click();
     }
     public void goToCashBackAndSavingsCards() {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getCreditCards().click();
         element.click();
         cashBackandSavingsCards.click();

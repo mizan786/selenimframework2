@@ -16,6 +16,8 @@ public class LendingPage extends CommonAPI {
     public static WebElement personalLoanAndLineOfCredit;
     @FindBy(how = How.CSS, using = ".sia-nav_submenu li:nth-child(2)")
     public static WebElement homeOwnership;
+    @FindBy(how = How.CSS, using = "#cmlink_mortgage_request_callback")
+    public static WebElement buyHome;
 
 
     public static WebElement getLending() {
@@ -36,8 +38,15 @@ public class LendingPage extends CommonAPI {
         getPersonalLoanAndLineOfCredit().click();
      }
      public  void homeOwnership(){
-         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getLending().click();
         getHomeOwnership().click();
      }
+    public  void buyHome() {
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        getLending().click();
+        getHomeOwnership().click();
+        buyHome.click();
+    }
 }

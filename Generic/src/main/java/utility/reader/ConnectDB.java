@@ -1,7 +1,10 @@
 package utility.reader;
-
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
+import com.mongodb.client.MongoDatabase;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -10,9 +13,8 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * Created by Mizan on 5/16/2017.
+ * Created by Mizan on 5/26/2017.
  */
-/*
 public class ConnectDB {
     public static MongoDatabase mongoDatabase = null;
 
@@ -22,7 +24,7 @@ public class ConnectDB {
     private ResultSet resultSet = null;
     List<String> list = new ArrayList<String>();
 
-    public static Properties loadProperties() throws IOException {
+    public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
         InputStream ism = new FileInputStream("src/MySql.properties");
         prop.load(ism);
@@ -196,4 +198,5 @@ public class ConnectDB {
         }
         //connection = ConnectionConfiguration.getConnection();
     }
-}*/
+
+}

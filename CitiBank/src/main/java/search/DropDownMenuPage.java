@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by Mizan on 5/16/2017.
  */
-/*
+
 public class DropDownMenuPage extends CommonAPI {
     public List<String> getMenus(){
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -42,4 +42,4 @@ public class DropDownMenuPage extends CommonAPI {
         List<String> items = getMenus();
         typeOnInputSearch(items);
     }
-}*/
+}

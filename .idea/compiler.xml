@@ -7,19 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CitiBank" />
-        <module name="CNN" />
+        <module name="Ebay" />
         <module name="Generic" />
-        <module name="MetLife" />
-        <module name="Upscalelearning" />
-        <module name="Yahoo" />
+        <module name="PcRechard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
       <module name="CitiBank" target="1.8" />
       <module name="CNN" target="1.8" />
+      <module name="Ebay" target="1.8" />
       <module name="Generic" target="1.8" />
       <module name="MetLife" target="1.8" />
+      <module name="PcRechard" target="1.8" />
       <module name="PntAutomation" target="1.8" />
       <module name="Upscalelearning" target="1.8" />
       <module name="Yahoo" target="1.8" />

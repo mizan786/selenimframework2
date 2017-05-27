@@ -3,7 +3,7 @@
 
 <suite name="CitiBank" parallel="tests">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
@@ -13,16 +13,15 @@
 
     <test name = "Citi Home">
         <classes>
-         <!--<class name="home.CitiBankTest"/>
-           <class name="home.WhyCitiBankTest"/>
-            <class name="home.RelationshipBankingTest"/>
-             <class name="home.BusinessBankingTest"/>
-            <class name="home.RateTest"/>-->
-            <class name="home.CreditCardPageTest"/>
-          <!-- <class name="banking.BankingPageTest"/>
-         <class name="lendingPage.LendingPageTest"/>
-            <class name="investingpage.InvestingPageTest"/>-->
-
+        <class name="search.CitiBankTest"/>
+       <!-- <class name="search.WhyCitiBankTest"/>
+        <class name="search.CreditCardPageTest"/>
+        <class name="search.RateTest"/>
+        <class name="banking.BankingPageTest"/>
+        <class name="lendingPage.LendingPageTest"/>
+        <class name="investingpage.InvestingPageTest"/>
+        <class name="searchitems.SearchItems"/>
+        <class name ="citigoldpage.CitiGoldTest"/>-->
 
         </classes>
     </test>
