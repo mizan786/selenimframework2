@@ -107,7 +107,7 @@ public class CommonAPI {
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
-    public void setUp(@Optional("true") boolean useCloudEnv, @Optional("true") String cloudEnvName,
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
                               String browserVersion, @Optional("https://online.citi.com/US/login.do") String url) throws IOException {
         if (useCloudEnv == true) {
@@ -128,16 +128,16 @@ public class CommonAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("Mac")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mizan\\IdeaProjects\\selenimframework2\\Generic\\driver\\chromedriver2.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017\\Generic\\driver\\chromedriver2.exe");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mizan\\IdeaProjects\\selenimframework2\\Generic\\driver\\chromedriver2.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017\\Generic\\driver\\chromedriver2.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("Mac")) {
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Mizan\\IdeaProjects\\selenimframework2\\Generic\\driver\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017\\Generic\\driver\\geckodriver.exe");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Mizan\\IdeaProjects\\selenimframework2\\Generic\\driver\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017\\Generic\\driver\\geckodriver.exe");
             }
             driver = new FirefoxDriver();
 
@@ -155,7 +155,7 @@ public class CommonAPI {
             System.setProperty("webdriver.gecko.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017\\Generic\\driver\\geckodriver.exe");
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017One\\Generic\\driver\\IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "C:\\Users\\Mizan\\IdeaProjects\\automation-march2017\\Generic\\driver\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;
