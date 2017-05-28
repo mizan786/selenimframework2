@@ -28,9 +28,6 @@ public class BankingPage extends CommonAPI {
     public  static WebElement selectOption;
     @FindBy(how = How.CSS, using = "#cmlink_ProdDisp")
     public static WebElement bankingOverView;
-
-
-
     public static WebElement getBanking() {
         return banking;
     }
@@ -49,8 +46,7 @@ public class BankingPage extends CommonAPI {
         getBanking().click();
         selectOptionByVisibleText(element, "NY");
         element.click();
-        //getSelectOption().click();
-    }
+        }
     public  void goToBankingOverview() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getBanking().click();

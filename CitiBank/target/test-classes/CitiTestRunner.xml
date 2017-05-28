@@ -14,14 +14,13 @@
     <test name = "Citi Home">
         <classes>
         <class name="search.CitiBankTest"/>
-       <!-- <class name="search.WhyCitiBankTest"/>
+        <class name="search.WhyCitiBankTest"/>
         <class name="search.CreditCardPageTest"/>
         <class name="search.RateTest"/>
         <class name="banking.BankingPageTest"/>
         <class name="lendingPage.LendingPageTest"/>
         <class name="investingpage.InvestingPageTest"/>
-        <class name="searchitems.SearchItems"/>
-        <class name ="citigoldpage.CitiGoldTest"/>-->
+        <class name ="citigoldpage.CitiGoldTest"/>
 
         </classes>
     </test>

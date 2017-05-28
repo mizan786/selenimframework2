@@ -1,15 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [home.CitiBankTest]">
+<suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="home.CitiBankTest">
+      <class name="search.CreditCardPageTest">
         <methods>
-          <include name="creditCards"/>
+          <include name="creditCardLogIn"/>
+          <include name="balanceTransferCreditCards"/>
+          <include name="lowInterestCreditcards"/>
+          <include name="afterEachTestMethod"/>
+          <include name="activateNewCreditCards"/>
+          <include name="businessCreditCards"/>
+          <include name="register"/>
+          <include name="extentSetup"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="rewardCreditcards"/>
+          <include name="cashBackAndSavingscards"/>
+          <include name="travelcards"/>
+          <include name="securedCreditCards"/>
+          <include name="forgetUserIdAndPasswordInSpanish"/>
+          <include name="generateReport"/>
+          <include name="allCreditcards"/>
           <include name="setUp"/>
+          <include name="forgetUserIdAndPassword"/>
+        </methods>
+      </class> <!-- search.CreditCardPageTest -->
+      <class name="search.WhyCitiBankTest">
+        <methods>
+          <include name="citiPrivatePass"/>
+          <include name="rewards"/>
+          <include name="afterEachTestMethod"/>
+          <include name="ourStory"/>
+          <include name="citiEasyDeals"/>
+          <include name="extentSetup"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="careers"/>
+          <include name="speacialOffer"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="benefitAndServices"/>
+        </methods>
+      </class> <!-- search.WhyCitiBankTest -->
+      <class name="search.CitiBankTest">
+        <methods>
+          <include name="citiGold"/>
+          <include name="afterEachTestMethod"/>
+          <include name="landing"/>
+          <include name="creditCards"/>
+          <include name="searchoption"/>
+          <include name="generateReport"/>
+          <include name="banking"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="investing"/>
+          <include name="startExtent"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- home.CitiBankTest -->
+      </class> <!-- search.CitiBankTest -->
+      <class name="banking.BankingPageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="bankingOverview"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="dropDownMenu"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- banking.BankingPageTest -->
+      <class name="citigoldpage.CitiGoldTest">
+        <methods>
+          <include name="beginYourRelationship"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- citigoldpage.CitiGoldTest -->
+      <class name="search.RateTest">
+        <methods>
+          <include name="creditCards"/>
+          <include name="lending"/>
+          <include name="mortgage"/>
+          <include name="homeEquity"/>
+          <include name="afterEachTestMethod"/>
+          <include name="personalBanking"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- search.RateTest -->
+      <class name="investingpage.InvestingPageTest">
+        <methods>
+          <include name="insightsAndTools"/>
+          <include name="marketInsights"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- investingpage.InvestingPageTest -->
+      <class name="lendingPage.LendingPageTest">
+        <methods>
+          <include name="homeOwnershio"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="personalLoanAndLineOfCredit"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- lendingPage.LendingPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [home.CitiBankTest] -->
+</suite> <!-- Failed suite [Command line suite] -->

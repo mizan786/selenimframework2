@@ -3,7 +3,7 @@
 
 <suite name="Ebay" parallel="tests">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
@@ -13,9 +13,9 @@
 
     <test name = "Ebay Home">
         <classes>
-            <class name="searchitems.SearchItems"/>
+        <class name="searchitems.SearchItems"/>
 
-        </classes>
+         </classes>
     </test>
 
 </suite>

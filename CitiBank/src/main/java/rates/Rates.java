@@ -9,7 +9,6 @@ import org.openqa.selenium.support.How;
  * Created by Mizan on 5/19/2017.
  */
 public class Rates extends CommonAPI {
-
     @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(1)")
     public static WebElement personalBanking;
     @FindBy(how = How.CSS, using = ".col-xs-2 li:nth-child(2)")

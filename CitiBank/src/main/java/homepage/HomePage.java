@@ -14,8 +14,6 @@ public class HomePage extends CommonAPI {
     public static WebElement searchInput;
     @FindBy(how = How.CSS, using = "#BtnLocationFinder")
     public static WebElement gobutoon;
-
-
     @FindBy(how = How.CSS, using = "#subnav_inner li:nth-child(1)")
     public static WebElement creditCardLink;
     @FindBy(how = How.CSS, using = "#subnav_inner li:nth-child(2)")
@@ -26,9 +24,6 @@ public class HomePage extends CommonAPI {
     public static WebElement investingLink;
     @FindBy(how = How.CSS, using = "#subnav_inner li:nth-child(5)")
     public static WebElement citygoldLink;
-
-
-
     public static WebElement getCreditCardLink()
     {
         return creditCardLink;

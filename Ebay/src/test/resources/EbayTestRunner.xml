@@ -13,8 +13,9 @@
 
     <test name = "Ebay Home">
         <classes>
-         <class name="searchitems.SearchItems"/>
-        </classes>
+        <class name="searchitems.SearchItems"/>
+
+         </classes>
     </test>
 
 </suite>

@@ -28,11 +28,9 @@ public class InvestingPage extends CommonAPI {
     public static WebElement getYourFinancialGoal() {
         return yourFinancialGoal;
     }
-
     public static WebElement getInvestingWithCiti() {
         return investingWithCiti;
     }
-
     public static WebElement getInsightAndTools() {
         return insightAndTools;
     }
@@ -40,7 +38,6 @@ public class InvestingPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        investing.click();
        insightAndTools.click();
-
     }
     public void goToMarketInsights(){
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));

@@ -2,7 +2,6 @@ package search;
 
 import base.CommonAPI;
 import utility.reporting.TestLogger;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,13 +13,14 @@ public class DropDownMenuPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> items = new ArrayList<String>();
         items = getTextFromWebElements("#gh-cat option");
+
         return items;
     }
 
     public void typeOnInputSearch(List<String> data)throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         for(int i=0; i<5; i++) {
-            typeByCss("#gh-btn", data.get(i));
+            typeByCss("#gh-ac", data.get(i));
             input();
             sleepFor(2);
             clearBox();
@@ -29,11 +29,11 @@ public class DropDownMenuPage extends CommonAPI {
 
     public void input() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        keysInput("#gh-btn");
+        keysInput("#gh-ac");
     }
     public void clearBox() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        clearInput("#gh-btn");
+        clearInput("#gh-ac");
     }
 
     public void dropDownSearch()throws InterruptedException{
@@ -41,5 +41,4 @@ public class DropDownMenuPage extends CommonAPI {
         List<String> items = getMenus();
         typeOnInputSearch(items);
     }
-
 }

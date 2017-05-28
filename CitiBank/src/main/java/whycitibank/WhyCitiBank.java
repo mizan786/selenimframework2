@@ -39,46 +39,36 @@ public class WhyCitiBank extends CommonAPI {
 
         return benifitAndServicesLink;
     }
-
     public static WebElement getRewardsLink() {
         return rewardsLink;
     }
-
     public static WebElement getCitiEasyLink() {
         return citiEasyDealsLink;
     }
-
     public static WebElement getCitiPrivateLink() {
         return citiPrivateLink;
     }
-
     public static WebElement getSpeacialOfferLink() {
         return speacialOfferLink;
     }
-
     public static void goToOurStorySection() {
         getOurStoryLink().click();
     }
     public static void goToCareeSection(){
         getOurStoryLink().click();
     }
-
     public static void goToBenefitAndServicesSection(){
         getBenifitAndServicesLink().click();
     }
-
     public static void goToRewardSection(){
         getRewardsLink().click();
     }
-
     public static void goToCitiEasyDealsSection(){
         getCitiEasyLink().click();
     }
-
     public static void goToCitiPrivatePassSection(){
         getCitiPrivateLink().click();
     }
-
     public static void goToSpeacialOffersSection(){
         getSpeacialOfferLink().click();
     }

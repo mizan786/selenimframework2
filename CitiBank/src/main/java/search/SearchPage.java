@@ -17,7 +17,6 @@ import java.io.IOException;
 public class SearchPage extends CommonAPI {
     @FindBy(how = How.CSS, using = "#gsc-i-id1")
     public static WebElement searchInput;
-
     @FindBy(how = How.CSS, using = ".goBtn hideInSmall")
     public static WebElement searchSubmit;
 
@@ -25,7 +24,6 @@ public class SearchPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()+": " + item));
         searchInput.sendKeys(item, Keys.ENTER);
         }
-
     public void clearSearchInput() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchInput.clear();
@@ -43,5 +41,4 @@ public class SearchPage extends CommonAPI {
             clearSearchInput();
         }
     }
-
 }

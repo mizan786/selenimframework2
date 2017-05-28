@@ -53,35 +53,27 @@ public class CreditcardPage extends CommonAPI {
     public static WebElement getCreditCards() {
         return creditCards;
     }
-
     public static WebElement getUsername() {
         return username;
     }
-
     public static WebElement getPassword() {
         return password;
     }
-
     public static WebElement getLogin() {
         return login;
     }
-
     public static WebElement getForgetUserIdOrAnPasward() {
         return forgetUserIdOrAnPasward;
     }
-
     public static WebElement getForgetUserIdOrAnPaswardInSpanish() {
         return forgetUserIdOrAnPaswardInSpanish;
     }
-
     public static WebElement getActivateYourCard() {
         return activateYourCard;
     }
-
     public static WebElement getResigterNow() {
         return resigterNow;
     }
-
     public void logIn() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getCreditCards().click();
@@ -89,13 +81,11 @@ public class CreditcardPage extends CommonAPI {
         getPassword().sendKeys("123m65");
         getLogin().click();
     }
-
     public void forgetUserIdOrPassword() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getCreditCards().click();
         getForgetUserIdOrAnPasward().click();
     }
-
     public void forgetUserIdOrPasswordInSpanish() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getCreditCards().click();
@@ -152,7 +142,6 @@ public class CreditcardPage extends CommonAPI {
         getCreditCards().click();
         element.click();
         businessCreditCards.click();
-
     }
     public void goToSecuredCreditCards() {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -160,5 +149,4 @@ public class CreditcardPage extends CommonAPI {
         element.click();
         securedCreditCards.click();
     }
-
 }

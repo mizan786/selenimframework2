@@ -23,15 +23,12 @@ public class LendingPage extends CommonAPI {
     public static WebElement getLending() {
         return lending;
     }
-
     public static WebElement getPersonalLoanAndLineOfCredit() {
         return personalLoanAndLineOfCredit;
     }
-
     public static WebElement getHomeOwnership() {
         return homeOwnership;
     }
-
     public void personalLoanAndLineOfCredit(){
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getLending().click();
