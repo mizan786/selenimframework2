@@ -15,16 +15,16 @@
     </modules>
 
     <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.seleniumhq.selenium</groupId>
-                <artifactId>selenium-java</artifactId>
-                <version>3.4.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.seleniumhq.selenium</groupId>
-                <artifactId>selenium-server</artifactId>
-                <version>3.4.0</version>
+      <dependencies>
+      <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>3.4.0</version>
+      </dependency>
+      <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+       <artifactId>selenium-server</artifactId>
+       <version>3.4.0</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/junit/junit -->
             <dependency>
